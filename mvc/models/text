@@ -1,0 +1,11 @@
+SELECT
+    s.id,
+    s.username as 'super',
+    a.id,
+    a.username as 'approver'
+FROM
+    users AS u,
+    users AS s,
+    users AS a
+WHERE
+    u.supervisor_id = s.id AND s.approver_id = a.id AND u.id = 1

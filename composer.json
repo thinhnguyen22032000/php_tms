@@ -1,0 +1,16 @@
+{
+    "require": {
+        "php": "^7.3|^8.1",
+        "predis/predis": "^2.0",
+        "rakit/validation": "^0.19.0",
+        "paragonie/easydb": "^3",
+        "vlucas/phpdotenv": "^5.4",
+        "moment/moment": "^2.29"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "oomphinc/composer-installers-extender": true
+        }
+    }
+}
